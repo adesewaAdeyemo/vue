@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexcontainer{
+    background-color:rgb(242, 233, 222);
+}
+.container{
+    width: 50%;
+    flex-direction: column;
+    padding:8% 0;
+
+}
+.card{
+    width: 50%;
+    margin:1% 25%;
+    padding: 20px;
+    align-self: center;
+    box-shadow: .5rem .5rem 1rem;
+}
+.card button{
+    background-color: rgb(241, 171, 80);
+    width: 30%;
+    border: none;
+    box-shadow: 1rem 1rem 1rem;
+    margin: 1%;
+    border-radius: 10px;
+}
+.vue input{
+    width: 50%;
+    display: inline;
+}
+.array{
+    text-align: end;
+}
+.card-text{
+    text-align: center;
+}
+.card ul li{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    padding-top: 3rem;
+    font: 77.5% / 7.15 sans-serif;   
+    position: fixed;
+    right: 46%;
+    color: rgb(87, 63, 32);
+}
+.vues input{
+    width: 100%;
+    display: flex;
+}
+.vues ul li{
+    list-style: none;
+}
